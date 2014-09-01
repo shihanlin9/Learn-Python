@@ -1,0 +1,10 @@
+Noth for Python
+-- This is a note about learning Python. Starting from 2014-9-1. 
+
+1. Different data type
+	<1> Tuple
+	This type is related to '()'. For example, 
+		var = ('Name', ID)
+   One thing worth mention is that tuple type cannot be modified once it is created. 
+
+
