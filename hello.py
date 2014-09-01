@@ -27,4 +27,7 @@ for i in arr:
 for i in range(len(arr)):
 	arr.pop(0)
 
+score = {'Peter':100, 'Mary':50}
+#print(score['Peter'])
+print(score.get('Petera', 1))
 

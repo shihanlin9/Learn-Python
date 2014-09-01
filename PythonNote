@@ -7,4 +7,24 @@ Noth for Python
 		var = ('Name', ID)
    One thing worth mention is that tuple type cannot be modified once it is created. 
 
+	<2> List
+	This type is related to '[]'. For example, 
+		var = [a, b, c]
+	Notice: This type has many 'methods'
+		(1) append(ele)    -> append an element at the end of list 
+		(2) insert(i, ele) -> insert an element before index 'i', where 'i' should be an integer
+		(3) pop(i)         -> delete the element with index 'i'
+		(4) len(list)      -> length of the list, return an integer. Notice this is not a method, instead, it is a function. The usage is like this, len(arr), where arr is a list. 
+	
+	<3> Dict (map)
+	This type is related to '{}'. For example, 
+		var = {'Peter' : 100, 'Mary' : 50}
+		print(var['Peter'])
+	Then, string 'Peter' is related to 100, when you want to find this value, only need to refer to 'Peter', in other word, 'Peter' can be used as an index. One thing important is that the key cannot be a changeble variable, i.e. must be constant. There are also several methods related to dict type. 
+		(1) How to add a key  -> For example, originally key 'Peter' was not in dict 'var', then we write this, 
+		                         var['Peter'] = 100
+                                 If this key does not exist, then a new key will be added to the dict, otherwise (the key already exist), the value mapped to that key will be changed. 
+		(2) pop('key')        -> delete a key
+		(3) 'key' in dict     -> This is used to find whether the key is in the dict. If the key do exist, 'True' is returned, otherwise 'False' is returned. 
+		(4) get('key')/get('key', int) -> The value related to the key will be returned if the key do exist. Otherwise, 'None' or an assigned value will be returned. 
 
