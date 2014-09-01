@@ -14,7 +14,8 @@ Noth for Python
 		(1) append(ele)    -> append an element at the end of list 
 		(2) insert(i, ele) -> insert an element before index 'i', where 'i' should be an integer
 		(3) pop(i)         -> delete the element with index 'i'
-		(4) len(list)      -> length of the list, return an integer. Notice this is not a method, instead, it is a function. The usage is like this, len(arr), where arr is a list. 
+		(4) sort()         -> sort the list
+		(5) len(list)      -> length of the list, return an integer. Notice this is not a method, instead, it is a function. The usage is like this, len(arr), where arr is a list. 
 	
 	<3> Dict (map)
 	This type is related to '{}'. For example, 
@@ -27,4 +28,13 @@ Noth for Python
 		(2) pop('key')        -> delete a key
 		(3) 'key' in dict     -> This is used to find whether the key is in the dict. If the key do exist, 'True' is returned, otherwise 'False' is returned. 
 		(4) get('key')/get('key', int) -> The value related to the key will be returned if the key do exist. Otherwise, 'None' or an assigned value will be returned. 
+	<4> Set
+	This type should be defined in this way, 
+		s = set([a, b, c])
+	There are also some methods related to this type, 
+		(1) add('ele')    -> Add an elememt to the set. Notice it is a set rather than a bag, since element will not be duplicated. 
+		(2) remove('ele') -> Remove the element from the set. 
+	There are also some operations related to this type. 
+		(1) | -> 'OR' operation
+		(2) & -> 'AND' operation
 
